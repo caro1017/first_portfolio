@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link favicon -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <!-- Link Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Link Iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Link Estilos -->
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+
+    <title>Portafolio API Nasa</title>
+</head>
+<body>
+
+    <main>
+        <section id="inicio">
+            <nav>
+                <div class="menu_principal">
+                    <ol>
+                        <a href="./Index.html#inicio"><li>Inicio</li></a>
+                        <a href="./Index.html#Perfil"><li>Perfil</li></a>
+                        <a href="./Index.html#Proyectos"><li>Proyectos</li></a>
+                        <a href="./Index.html#api_nasa"><li>API Nasa</li></a>
+                        <a href="./Index.html#contactame"><li>Contactame</li></a>
+                    </ol>
+                </div>
+            </nav>            
+
+            <div id="api" class="api_nasa_contenido">
+                <div class="contenedor_api_nasa">
+                    <div class="container">
+                        <h2>API Nasa</h2>
+                        <form class="formulario_api">
+                            <input type="date" id="day">
+                            <button>
+                                <i class='bx bx-search-alt-2' id="send"></i>
+                            </button>
+                        </form>
+
+                        <div id="nasa">
+                        </div>
+                    </div>
+                </div>
+            </div>             
+            
+            <div class="redes_sociales_header">
+                <a href="https://github.com/caro1017" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/carolina-uribe-botero-7b0839195/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://api.whatsapp.com/send?phone=0573146816250&text=Hola!" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </section>
+
+        <section id="video">
+            <div class="video_api">
+                <video autoplay loop title="video tomado de https://pixabay.com/es/">
+                    <source  src="./assets/video/Malla_Video.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+                <audio autoplay loop>
+                    <source src="./assets/audio/Sonido_Ambiente.wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Link JavaScript -->
+    <script src="./assets/js/api_Nasa.js" ></script>
+    <script src="./assets/js/menu.js" ></script>
+    
+</body>
+</html>
