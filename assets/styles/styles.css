@@ -43,7 +43,6 @@ body::-webkit-scrollbar-thumb:hover {
     z-index: 2;
     transform: rotate(270deg);
     margin: 8rem 0 0 -9rem;
-    background-color: #011532;
 }
 
 .menu_principal li{
@@ -1081,7 +1080,7 @@ hr{
 #nasa h5{
     text-align: center;
     margin-top: -0.5em;
-    color: black;
+    color: #D6D6D6;
     font-size: 0.7em;
     font-weight: 500;
 }
